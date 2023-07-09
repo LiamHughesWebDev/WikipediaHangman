@@ -1,0 +1,22 @@
+div{
+    background-color: gray;
+
+    img{
+        display: block;
+        margin: auto;
+    }
+    
+    .letters{
+        top: -5em;
+        width: 50%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        border: black 5px solid;
+    }
+    
+}
