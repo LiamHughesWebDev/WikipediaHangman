@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "CABv2": {
+    "WikipediaHangman": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cabv2",
+            "outputPath": "dist/WikipediaHangman",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "CABv2:build:production"
+              "browserTarget": "WikipediaHangman:build:production"
             },
             "development": {
-              "browserTarget": "CABv2:build:development"
+              "browserTarget": "WikipediaHangman:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "CABv2:build"
+            "browserTarget": "WikipediaHangman:build"
           }
         },
         "test": {
