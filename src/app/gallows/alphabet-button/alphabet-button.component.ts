@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { GameLogicService } from 'src/app/game-logic.service';
 
 @Component({
   selector: 'app-alphabet-button',
@@ -6,11 +7,17 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./alphabet-button.component.scss']
 })
 export class AlphabetButtonComponent implements OnInit{
-  @Input() letter = "";
+  @Input() letter: any;
+
+  constructor(private Game: GameLogicService){}
 
   ngOnInit(): void {
+    
   }
 
-
+  sendLetter(){
+    console.log(this.letter);
+    this.Game.receiveGuessedLetter(this.letter);
+  }
 
 }

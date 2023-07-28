@@ -11,10 +11,11 @@ export class WordToGuessComponent implements OnInit{
 
   constructor(private game:GameLogicService){}
   
+  wordToGuess!:String;
 
 
   ngOnInit(): void {
-    console.log(this.game.wikiPageData);
+    this.game.randomWikiPage.subscribe(()=>{})
 
   }
 
