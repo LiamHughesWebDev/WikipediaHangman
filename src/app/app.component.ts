@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
     this.Game.getRandomPage();      // Enable to trigger API call
 
 
+
   }
 
 

@@ -8,6 +8,8 @@ import { GallowsComponent } from './gallows/gallows.component';
 import { WordToGuessComponent } from './word-to-guess/word-to-guess.component';
 import { AlphabetButtonComponent } from './gallows/alphabet-button/alphabet-button.component';
 import { AnswerDescriptionComponent } from './answer-description/answer-description.component';
+import { LetterToGuessComponent } from './word-to-guess/letter-to-guess/letter-to-guess.component';
+import { CheckIfGuessedComponent } from './word-to-guess/letter-to-guess/check-if-guessed/check-if-guessed.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { AnswerDescriptionComponent } from './answer-description/answer-descript
     GallowsComponent,
     WordToGuessComponent,
     AlphabetButtonComponent,
-    AnswerDescriptionComponent
+    AnswerDescriptionComponent,
+    LetterToGuessComponent,
+    CheckIfGuessedComponent
   ],
   imports: [
     BrowserModule,

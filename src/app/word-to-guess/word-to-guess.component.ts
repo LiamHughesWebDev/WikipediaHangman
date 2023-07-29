@@ -11,16 +11,24 @@ export class WordToGuessComponent implements OnInit{
 
   constructor(private game:GameLogicService){}
   
-  wordToGuess!:String;
-
+  article!:WikiPageData;
+  title!:Array<string>;
+  displayTitle!:String;
+ 
 
   ngOnInit(): void {
-    this.game.randomWikiPage.subscribe(()=>{})
-
+    this.game.randomWikiPage.subscribe((val)=>{
+      console.log(val);
+      //set values
+      this.article = val;
+      this.displayTitle = this.article.title;
+      this.title = this.article.title.split(" ");
+ 
+     })
+     
   }
 
-
-  
+ 
 
 
 }

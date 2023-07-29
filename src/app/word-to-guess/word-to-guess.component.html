@@ -1,1 +1,4 @@
-<p>word-to-guess works</p>
+<p>{{displayTitle}}</p>
+<div class="phrase">
+    <app-letter-to-guess *ngFor="let word of title" [word]="word"></app-letter-to-guess>
+</div>

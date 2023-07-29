@@ -12,7 +12,6 @@ export class AlphabetButtonComponent implements OnInit{
   constructor(private Game: GameLogicService){}
 
   ngOnInit(): void {
-    
   }
 
   sendLetter(){
