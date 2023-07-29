@@ -15,7 +15,7 @@ export class CheckIfGuessedComponent implements OnInit {
 
   ngOnInit(): void {
     this.game.observeGuessedWord.subscribe({
-      next: v => {this.guessedLetters = v; this.checkLetters();}
+      next: v => {this.guessedLetters = v; this.checkLetters();} //receives data from Service & calls check Letters everythime it gets an update
     })
   }
 
