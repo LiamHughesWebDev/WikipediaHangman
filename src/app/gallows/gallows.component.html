@@ -1,5 +1,10 @@
 <div class="container">
-    <img src="../../assets/StickFigure/hangman.svg" alt="Hangman Game's Gallows">
+    <div class="takeSpace">
+        <img src="../../assets/StickFigure/gallows.svg" alt="Hangman Game's Gallows" class="gallows">
+        <img src="../../assets/StickFigure/hangman6.svg" alt="Hangman Game's Gallows" class="man">
+    </div>
+
+    
 
     <div class="letters">
         <app-alphabet-button *ngFor="let letter of alphabet" [letter]="letter"></app-alphabet-button>

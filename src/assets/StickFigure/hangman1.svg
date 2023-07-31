@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18mm"
+   height="123mm"
+   viewBox="0 0 18 123"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="hangman1.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5625561"
+     inkscape:cx="-60.797817"
+     inkscape:cy="258.55072"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g657"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid178"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g657"
+       transform="rotate(90,161.69179,136.07241)">
+      <path
+         style="fill:#000000;stroke-width:0.157141"
+         id="path355"
+         d="m 30.142339,288.87893 c 2.092844,-0.009 4.185939,-0.008 6.278903,-0.007 1.82649,0.004 3.652996,0.002 5.479497,0.004 1.307319,0.002 2.614645,0.001 3.921971,0.002 1.018998,-1.9e-4 2.037989,7.1e-4 3.056985,0.001 1.185359,0.005 2.371638,-0.0198 3.553909,0.0157 0,0 -3.13296,-0.83131 -3.13296,-0.83131 v 0 c -1.194347,-0.0186 -2.390645,-0.009 -3.585926,-0.0131 -1.014981,10e-4 -2.029959,0.002 -3.044942,10e-4 -1.300942,10e-4 -2.601884,7.1e-4 -3.90282,0.003 -1.816511,0.002 -3.633026,2e-5 -5.449527,0.004 -2.111888,2.8e-4 -4.223902,0.002 -6.335674,-0.007 0,0 3.160584,0.82761 3.160584,0.82761 z" />
+      <path
+         style="fill:#000000;stroke-width:0.264583"
+         d="m 72.520262,281.59343 c 15.916762,0 31.833508,0 47.750278,0"
+         id="path411" />
+    </g>
+  </g>
+</svg>
